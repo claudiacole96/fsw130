@@ -2,11 +2,11 @@ import React from "react"
 import ReactDOM from "react-dom"
 
 import App from "./App"
-import {FormContextProvider} from "./components/FormContext"
+import {ContextProvider} from "./components/contextState"
 
 ReactDOM.render(
-    <FormContextProvider>
+    <ContextProvider>
         <App />
-    </FormContextProvider>,
+    </ContextProvider>, 
     document.getElementById("root")
 )
