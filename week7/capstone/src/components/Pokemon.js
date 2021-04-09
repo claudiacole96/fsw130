@@ -4,7 +4,7 @@ function Pokemon (props) {
 
 
   return (
-    <div id={props._id} className = 'homePokemon'>
+    <div id={props._id} className={props.type}>
       <h3>{props.name}</h3>
       <img src={props.image} alt="description"/>
       <h5>{props.gen}</h5>

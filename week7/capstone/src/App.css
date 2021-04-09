@@ -24,6 +24,30 @@ h1 {
   justify-content: space-evenly;
   text-shadow: 3px 1px white;
 }
+.grass {
+  background-color: green;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 18px black;
+}
+.fire {
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 18px black;
+}
+.water {
+  background-color: blue;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 18px black;
+}
 
 
 #homePokemon {
@@ -88,15 +112,6 @@ a:hover {
   margin-top: 150px;
   display: grid;
   grid-template-columns: repeat(5, 1fr)
-}
-
-.homePokemon {
-  background-color: grey;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 2px 2px 18px black;
 }
 
 button {
