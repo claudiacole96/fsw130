@@ -1,6 +1,9 @@
 * {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+body {
+  background-color: black;
+}
 #links-div {
   background-image: url("https://i.pinimg.com/originals/43/77/4f/43774fb3b7eecc24a4ae700260b206f0.jpg");
   background-position: bottom;
@@ -14,7 +17,7 @@
   align-items: center;
   top: 0;
 }
-h1 {
+#first-header {
   padding: 25px;
   text-shadow: 3px 1px white;
 }
@@ -23,6 +26,7 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   text-shadow: 3px 1px white;
+  font-size: 30px;
 }
 .Grass {
   background-color: #7AC74C;
@@ -90,16 +94,18 @@ a:hover {
 }
 
 #chosenHeader {
+  color: white;
   grid-column: 2/4;
   grid-row: 1/2;
   text-align: center;
+  padding: 40px;
 }
 
 #chosenPokemon {
   grid-column: 1/-1;
   grid-row: 2/3;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #links > a {

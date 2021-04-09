@@ -7,7 +7,7 @@ function Navbar () {
   return (
     <div id="header-div">
         <header id='links-div'>
-            <h1>Choose Your Pokemon</h1>
+            <h1 id="first-header">Choose Your Pokemon</h1>
             <nav id='links'>
                 <Link to = "/">Home</Link>
                 <Link to ='/Chosen'>Pokemon</Link>
