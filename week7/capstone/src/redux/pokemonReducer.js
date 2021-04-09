@@ -224,7 +224,8 @@ export function pokemonReducer(state = initState, action) {
   switch (action.type) {
     case "ADD_POKEMON":
       const oldArr = state.pokemon
-      const newArr = oldArr.filter(item => item._id === action.payload)
+      console.log(oldArr)
+      const newArr = oldArr.filter(p => p._id == action.payload)
       console.log(newArr)
       return {
         ...state,
@@ -232,7 +233,7 @@ export function pokemonReducer(state = initState, action) {
       }
     case "DELETE_POKEMON":
       const oArr = state.chosen
-      const index = oArr.findIndex(id => id._id === action.payload)
+      const index = oArr.findIndex(id => id._id == action.payload)
       oArr.splice(index, 1)
       return {
         ...state,
@@ -240,7 +241,7 @@ export function pokemonReducer(state = initState, action) {
       }
     case "FILTER_POKEMON":
       const oldArray = state.pokemon
-      const newArray = oldArray.filter(x => x.type === action.payload)
+      const newArray = oldArray.filter(x => x.type == action.payload)
       return {
         ...state,
         filteredPokemon: newArray
