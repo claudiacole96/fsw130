@@ -75,7 +75,7 @@ const initState = {
       name: "Treecko",
       type: "grass",
       gen: 3,
-      image: "https://static.wikia.nocookie.net/nintendo/images/b/b8/Treecko.png/revision/latest?cb=20070423160733&path-prefix=en",
+      image: "https://i.pinimg.com/originals/8d/a3/ea/8da3eae03386d9d7379e7f4a13c051b4.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -91,7 +91,7 @@ const initState = {
       name: "Mudkip",
       type: "water",
       gen: 3,
-      image: "https://static.wikia.nocookie.net/ultimate-pokemon-fanon/images/2/2f/Mudkip%27s_New_Art.png/revision/latest?cb=20140624165754",
+      image: "https://i.pinimg.com/originals/a8/86/53/a88653b6b10d9758a3a07be80e722055.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -99,7 +99,7 @@ const initState = {
       name: "Piplup",
       type: "water",
       gen: 4,
-      image: "https://static.wikia.nocookie.net/project-pokemon/images/c/c0/250px-393Piplup.png/revision/latest/top-crop/width/360/height/450?cb=20160917190507",
+      image: "https://img.favpng.com/19/8/23/pok-mon-diamond-and-pearl-pok-mon-platinum-piplup-png-favpng-K2RWR6f3mPi3sanVWM0Lw4Rrq_t.jpg",
       attacks: ["", ""],
       _id: uuid()
     },
