@@ -25,7 +25,7 @@ const initState = {
   pokemon: [
     {
       name: "Bulbasaur",
-      type: "grass",
+      type: "Grass",
       gen: 1,
       image: "https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png",
       attacks: ["", ""],
@@ -33,7 +33,7 @@ const initState = {
     },
     {
       name: "Squirtle",
-      type: "water",
+      type: "Water",
       gen: 1,
       image: "https://embrosoft.com/wp-content/uploads/2017/04/Pokemon-Squirtle-frontal-left.jpg",
       attacks: ["", ""],
@@ -41,7 +41,7 @@ const initState = {
     },
     {
       name: "Charmander",
-      type: "fire",
+      type: "Fire",
       gen: 1,
       image: "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/d/d4/Charmander.gif",
       attacks: ["", ""],
@@ -49,7 +49,7 @@ const initState = {
     },
     {
       name: "Chikorita",
-      type: "grass",
+      type: "Grass",
       gen: 2,
       image: "https://cdn.bulbagarden.net/upload/thumb/b/bf/152Chikorita.png/1200px-152Chikorita.png",
       attacks: ["", ""],
@@ -57,7 +57,7 @@ const initState = {
     },
     {
       name: "Totodile",
-      type: "water",
+      type: "Water",
       gen: 2,
       image: "https://cdn.bulbagarden.net/upload/thumb/d/df/158Totodile.png/1200px-158Totodile.png",
       attacks: ["", ""],
@@ -65,7 +65,7 @@ const initState = {
     },
     {
       name: "Cyndaquil",
-      type: "fire",
+      type: "Fire",
       gen: 2,
       image: "https://cdn.bulbagarden.net/upload/thumb/9/9b/155Cyndaquil.png/1200px-155Cyndaquil.png",
       attacks: ["", ""],
@@ -73,7 +73,7 @@ const initState = {
     },
     {
       name: "Treecko",
-      type: "grass",
+      type: "Grass",
       gen: 3,
       image: "https://i.pinimg.com/originals/8d/a3/ea/8da3eae03386d9d7379e7f4a13c051b4.png",
       attacks: ["", ""],
@@ -81,7 +81,7 @@ const initState = {
     },
     {
       name: "Mudkip",
-      type: "water",
+      type: "Water",
       gen: 3,
       image: "https://i.pinimg.com/originals/a8/86/53/a88653b6b10d9758a3a07be80e722055.png",
       attacks: ["", ""],
@@ -89,7 +89,7 @@ const initState = {
     },
     {
       name: "Torchic",
-      type: "fire",
+      type: "Fire",
       gen: 3,
       image: "https://cdn.bulbagarden.net/upload/9/91/255Torchic.png",
       attacks: ["", ""],
@@ -97,7 +97,7 @@ const initState = {
     },
     {
       name: "Turtwig",
-      type: "grass",
+      type: "Grass",
       gen: 4,
       image: "http://static.pokemonpets.com/images/monsters-images-800-800/387-Turtwig.png",
       attacks: ["", ""],
@@ -105,7 +105,7 @@ const initState = {
     },
     {
       name: "Piplup",
-      type: "water",
+      type: "Water",
       gen: 4,
       image: "https://img.favpng.com/19/8/23/pok-mon-diamond-and-pearl-pok-mon-platinum-piplup-png-favpng-K2RWR6f3mPi3sanVWM0Lw4Rrq_t.jpg",
       attacks: ["", ""],
@@ -113,7 +113,7 @@ const initState = {
     },
     {
       name: "Chimchar",
-      type: "fire",
+      type: "Fire",
       gen: 4,
       image: "https://img.pokemondb.net/artwork/large/chimchar.jpg",
       attacks: ["", ""],
@@ -121,7 +121,7 @@ const initState = {
     },
     {
       name: "Snivy",
-      type: "grass",
+      type: "Grass",
       gen: 5,
       image: "https://cdn.bulbagarden.net/upload/thumb/7/75/495Snivy.png/1200px-495Snivy.png",
       attacks: ["", ""],
@@ -129,7 +129,7 @@ const initState = {
     },
     {
       name: "Oshawott",
-      type: "water",
+      type: "Water",
       gen: 5,
       image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/501.png",
       attacks: ["", ""],
@@ -137,7 +137,7 @@ const initState = {
     },
     {
       name: "Tepig",
-      type: "fire",
+      type: "Fire",
       gen: 5,
       image: "https://i.pinimg.com/originals/c2/f4/fc/c2f4fc361e85aae6d3d62426c36cf4d1.png",
       attacks: ["", ""],
@@ -145,7 +145,7 @@ const initState = {
     },
     {
       name: "Chespin",
-      type: "grass",
+      type: "Grass",
       gen: 6,
       image: "https://cdn.bulbagarden.net/upload/thumb/c/ca/650Chespin.png/1200px-650Chespin.png",
       attacks: ["", ""],
@@ -153,7 +153,7 @@ const initState = {
     },
     {
       name: "Froakie",
-      type: "water",
+      type: "Water",
       gen: 6,
       image: "https://cdn.bulbagarden.net/upload/thumb/1/18/656Froakie.png/250px-656Froakie.png",
       attacks: ["", ""],
@@ -161,7 +161,7 @@ const initState = {
     },
     {
       name: "Fennekin",
-      type: "fire",
+      type: "Fire",
       gen: 6,
       image: "https://pokestop.io/img/pokemon/fennekin-256x256.png",
       attacks: ["", ""],
@@ -169,7 +169,7 @@ const initState = {
     },
     {
       name: "Rowlet",
-      type: "grass",
+      type: "Grass",
       gen: 7,
       image: "https://img.pokemondb.net/artwork/large/rowlet.jpg",
       attacks: ["", ""],
@@ -177,7 +177,7 @@ const initState = {
     },
     {
       name: "Popplio",
-      type: "water",
+      type: "Water",
       gen: 7,
       image: "https://img.pokemondb.net/artwork/large/popplio.jpg",
       attacks: ["", ""],
@@ -185,7 +185,7 @@ const initState = {
     },
     {
       name: "Litten",
-      type: "fire",
+      type: "Fire",
       gen: 7,
       image: "https://cdn.bulbagarden.net/upload/thumb/0/0e/725Litten.png/1200px-725Litten.png",
       attacks: ["", ""],
@@ -193,7 +193,7 @@ const initState = {
     },
     {
       name: "Grookey",
-      type: "grass",
+      type: "Grass",
       gen: 8,
       image: "https://cdn.bulbagarden.net/upload/thumb/9/93/810Grookey.png/1200px-810Grookey.png",
       attacks: ["", ""],
@@ -201,7 +201,7 @@ const initState = {
     },
     {
       name: "Sobble",
-      type: "water",
+      type: "Water",
       gen: 8,
       image: "http://static.pokemonpets.com/images/monsters-images-800-800/816-Sobble.png",
       attacks: ["", ""],
@@ -209,7 +209,7 @@ const initState = {
     },
     {
       name: "Scorbunny",
-      type: "fire",
+      type: "Fire",
       gen: 8,
       image: "https://i.pinimg.com/originals/dc/fa/51/dcfa514a5aa39b81d20c3aec0e840dfd.png",
       attacks: ["", ""],
@@ -223,7 +223,7 @@ const initState = {
 export function pokemonReducer(state = initState, action) {
   switch (action.type) {
     case "ADD_POKEMON":
-      const oldArr = state.items
+      const oldArr = state.pokemon
       const newArr = oldArr.filter(item => item._id === action.payload)
       console.log(newArr)
       return {

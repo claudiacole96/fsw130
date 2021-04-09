@@ -21,7 +21,7 @@ function Home (props) {
   }
 
   function addChosen (id) {
-    dispatch(addChosen(id))
+    dispatch(addPokemon(id))
   }
 
 

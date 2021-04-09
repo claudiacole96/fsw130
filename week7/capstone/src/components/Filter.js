@@ -16,9 +16,9 @@ function Filter (props) {
       <form onSubmit={(event) => props.filter(event, option)} >
         <select id='filterDrop' onChange={handleChange}>
           <option value="All">All</option>
-          <option value="grass">Grass</option>
-          <option value="fire">Fire</option>
-          <option value="water">Water</option>
+          <option value="Grass">Grass</option>
+          <option value="Fire">Fire</option>
+          <option value="Water">Water</option>
         </select>
 
         <button>Submit</button>
