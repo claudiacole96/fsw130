@@ -1,17 +1,28 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #links-div {
+  background-image: url("https://i.pinimg.com/originals/43/77/4f/43774fb3b7eecc24a4ae700260b206f0.jpg");
+  background-position: bottom;
+  background-size: cover;
   width: 100%;
+  height: 150px;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  top: 0;
 }
 h1 {
-  display: inline;
+  padding: 25px;
+  text-shadow: 3px 1px white;
 }
 #links {
+  width: 25%;
   display: flex;
   justify-content: space-evenly;
+  text-shadow: 3px 1px white;
 }
 
 
