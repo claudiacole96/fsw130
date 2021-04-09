@@ -17,18 +17,11 @@ function Chosen (props){
   return (
     <div id='chosen'>
       <div id='chosenHeader'>
-        {props.chosen.length == 0 ? <h1>Your cart is empty! Don't miss out on the deals!!</h1> : <h1>The amazing deals you're getting TODAY!</h1>}
-      </div>
-     
-      <div id='chosenCost'>
-        {props.chosen.length == 0 ? "" : <h3>Your Total: ${props.chosen.reduce((sum, pokemon) => {
-        return sum + pokemon.cost
-        }, 0)}</h3>}
+        {props.chosen.length == 0 ? <h1>Go choose your pokemon!</h1> : <h1>Your Pokemon</h1>}
       </div>
       <div id='chosenPokemon'>
         {props.chosen.map(x => <ChosenPokemon {...x} key = {x._id} deletePokemon={delPoke}/>)}
       </div>
-      
     </div>
   )
 }
