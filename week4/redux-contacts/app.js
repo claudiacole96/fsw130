@@ -1,31 +1,23 @@
-/* Build a contact management system using Redux in a vanilla JavaScript environment (no React).
-
-You should be able to dispatch actions that add a new person and remove an existing person from an array of contacts.
-
-The contact objects can have whatever properties you want. For example: */
-
-const redux = require("redux")
-
 let contactState = {
     contacts: []
 }
 
-const addContact = () => {
+const addContact = (person) => {
     return {
-        type: "ADDCONTACT",
+        type: "ADD_CONTACT",
         payload: person
     }
 }
-const deleteContact = () => {
+const deleteContact = (person) => {
     return {
-        type: "DELETECONTACT",
+        type: "DELETE_CONTACT",
         payload: person
     }
 }
 
 function reducer(state = contactState, action) {
     switch (action.type) {
-        case "ADDCONTACT":
+        case "ADD_CONTACT":
             let arr = state.state.contacts
             arr.push(action.payload)
             return {
@@ -34,7 +26,7 @@ function reducer(state = contactState, action) {
                     newContact: action.payload
                 }
             }
-        case "DELETECONTACT":
+        case "DELETE_CONTACT":
             let oldArr = state.state.contacts
             let x = parseInt(action.payload)
             let newArr = oldArr.filter(person => person.id !== x)
@@ -50,7 +42,7 @@ function reducer(state = contactState, action) {
     }
 }
 
-const store = redux.createStore(reducer)
+const store = Redux.createStore(reducer)
 
 function renderWebPage() {
     let state = store.getState()
@@ -58,6 +50,7 @@ function renderWebPage() {
     let x = state.state.newContact
     console.log("in the render", state.state.contacts)
     let div = document.createElement("div")
+    div.classList.add("contact")
     let h3 = document.createElement("h3")
     let h4email = document.createElement("h4")
     let h4phone = document.createElement("h4")
@@ -73,7 +66,7 @@ function renderWebPage() {
         let x = btn.parentNode
         console.log(x)
         if (e.target.id == btn.id) {
-            constacts.removeChild(x)
+            contacts.removeChild(x)
             store.dispatch(deleteContact(x.id))
         }
     })

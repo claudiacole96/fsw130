@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    width: 80%;
+    margin: auto;
+}
+h1 {
+    padding: 20px;
+}
+#contact-parent {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+}
+#add-contact {
+    grid-column: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input, #add-btn {
+    height: 30px;
+    width: 100%;
+    margin: 15px;
+}
+.contact {
+    grid-column: 4/-1;
+}
+h6 {
+    text-align: center;
+}
