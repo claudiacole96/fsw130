@@ -10,16 +10,15 @@ function Home (props) {
   
   const dispatch = useDispatch()
 
-  function handleFilter (event, option) {
-    event.preventDefault()
-    dispatch(filterPokemon(option))
-    setPokeToggle(true)
+  function handleFilter (event) {
+    const option = (event.target.value)
+    if (option === "All") {
+        setPokeToggle(false)
+    } else {
+        dispatch(filterPokemon(option))
+        setPokeToggle(true)
+    }
   }
-
-  function setToFalse () {
-    setPokeToggle(false)
-  }
-
   function addChosen (id) {
     dispatch(addPokemon(id))
   }
@@ -27,7 +26,7 @@ function Home (props) {
 
   return (
     <div id="home">
-      <Filter filter={handleFilter} toggleFalse={setToFalse}/>
+      <Filter filter={handleFilter}/>
       <div id="homePokemon">
         {pokeToggle ? props.filteredPokemon.map(x => {
           return <Pokemon  {...x} addChosen={addChosen} key={x._id}/>

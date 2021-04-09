@@ -3,7 +3,7 @@ import React from 'react'
 
 function ChosenPokemon (props) {
   return (
-    <div id={props._id}>
+    <div id={props._id} className={props.type}>
       <h3>{props.name}</h3>
       <img src={props.image} alt="description"/>
       <h5>{props.type}</h5>

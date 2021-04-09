@@ -16,7 +16,7 @@ export function deletePokemon(id) {
 
 export function filterPokemon(option){
   return {
-    type: "FILTER_POKE",
+    type: "FILTER_POKEMON",
     payload: option
   }
 }
@@ -224,9 +224,7 @@ export function pokemonReducer(state = initState, action) {
   switch (action.type) {
     case "ADD_CHOSEN_POKEMON":
       const oldArr = state.pokemon
-      console.log(oldArr)
       const newArr = oldArr.filter(p => p._id === action.payload)
-      console.log(newArr)
       return {
         ...state,
         chosen: [...state.chosen, newArr[0]]

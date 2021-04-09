@@ -66,13 +66,16 @@ img {
 #filterForm {
   background-color: black;
   text-align: center;
-  padding-top: 15%;
+  padding: 20px;
   border-radius: 20px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#filterDrop {
+  width: 80%;
 }
 a:hover {
   text-shadow: 0px 2px 9px  red;
@@ -93,7 +96,7 @@ a:hover {
 }
 
 #chosenPokemon {
-  grid-column: 2/4;
+  grid-column: 1/-1;
   grid-row: 2/3;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
