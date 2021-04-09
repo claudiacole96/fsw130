@@ -1,0 +1,107 @@
+#links-div {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  display: inline;
+}
+#links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#homePokemon {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px 2px black;
+}
+
+#filterForm {
+  background-color: grey;
+  text-align: center;
+  padding-top: 15%;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+a:hover {
+  text-shadow: 0px 2px 9px  red;
+}
+
+
+
+#chosen {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+#chosenHeader {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+#chosenCost {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#chosenPokemon {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#links > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#home {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+}
+
+.homePokemon {
+  background-color: grey;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 18px black;
+}
+
+button {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+  #homePokemon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
+}
+
+@media only screen and (max-width: 900px){
+  #homePokemon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
