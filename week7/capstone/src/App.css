@@ -25,7 +25,7 @@ h1 {
   text-shadow: 3px 1px white;
 }
 .Grass {
-  background-color: green;
+  background-color: #7AC74C;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -33,7 +33,7 @@ h1 {
   box-shadow: 2px 2px 18px black;
 }
 .Fire {
-  background-color: red;
+  background-color: #EE8130;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -41,7 +41,7 @@ h1 {
   box-shadow: 2px 2px 18px black;
 }
 .Water {
-  background-color: blue;
+  background-color: #6390F0;
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -73,9 +73,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-#filterForm > form {
-
 }
 a:hover {
   text-shadow: 0px 2px 9px  red;
