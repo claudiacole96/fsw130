@@ -24,10 +24,10 @@ export function filterPokemon(option){
 const initState = {
   pokemon: [
     {
-      name: "Charmander",
-      type: "fire",
+      name: "Bulbasaur",
+      type: "grass",
       gen: 1,
-      image: "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/d/d4/Charmander.gif",
+      image: "https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -40,10 +40,10 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Bulbasaur",
-      type: "grass",
+      name: "Charmander",
+      type: "fire",
       gen: 1,
-      image: "https://cdn.bulbagarden.net/upload/2/21/001Bulbasaur.png",
+      image: "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-blue-version/d/d4/Charmander.gif",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -56,18 +56,18 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Cyndaquil",
-      type: "fire",
-      gen: 2,
-      image: "https://cdn.bulbagarden.net/upload/thumb/9/9b/155Cyndaquil.png/1200px-155Cyndaquil.png",
-      attacks: ["", ""],
-      _id: uuid()
-    },
-    {
       name: "Totodile",
       type: "water",
       gen: 2,
       image: "https://cdn.bulbagarden.net/upload/thumb/d/df/158Totodile.png/1200px-158Totodile.png",
+      attacks: ["", ""],
+      _id: uuid()
+    },
+    {
+      name: "Cyndaquil",
+      type: "fire",
+      gen: 2,
+      image: "https://cdn.bulbagarden.net/upload/thumb/9/9b/155Cyndaquil.png/1200px-155Cyndaquil.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -80,14 +80,6 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Torchic",
-      type: "fire",
-      gen: 3,
-      image: "https://cdn.bulbagarden.net/upload/9/91/255Torchic.png",
-      attacks: ["", ""],
-      _id: uuid()
-    },
-    {
       name: "Mudkip",
       type: "water",
       gen: 3,
@@ -96,10 +88,10 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Piplup",
-      type: "water",
-      gen: 4,
-      image: "https://img.favpng.com/19/8/23/pok-mon-diamond-and-pearl-pok-mon-platinum-piplup-png-favpng-K2RWR6f3mPi3sanVWM0Lw4Rrq_t.jpg",
+      name: "Torchic",
+      type: "fire",
+      gen: 3,
+      image: "https://cdn.bulbagarden.net/upload/9/91/255Torchic.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -108,6 +100,14 @@ const initState = {
       type: "grass",
       gen: 4,
       image: "http://static.pokemonpets.com/images/monsters-images-800-800/387-Turtwig.png",
+      attacks: ["", ""],
+      _id: uuid()
+    },
+    {
+      name: "Piplup",
+      type: "water",
+      gen: 4,
+      image: "https://img.favpng.com/19/8/23/pok-mon-diamond-and-pearl-pok-mon-platinum-piplup-png-favpng-K2RWR6f3mPi3sanVWM0Lw4Rrq_t.jpg",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -152,18 +152,18 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Fennekin",
-      type: "fire",
-      gen: 6,
-      image: "https://pokestop.io/img/pokemon/fennekin-256x256.png",
-      attacks: ["", ""],
-      _id: uuid()
-    },
-    {
       name: "Froakie",
       type: "water",
       gen: 6,
       image: "https://cdn.bulbagarden.net/upload/thumb/1/18/656Froakie.png/250px-656Froakie.png",
+      attacks: ["", ""],
+      _id: uuid()
+    },
+    {
+      name: "Fennekin",
+      type: "fire",
+      gen: 6,
+      image: "https://pokestop.io/img/pokemon/fennekin-256x256.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -176,18 +176,18 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Litten",
-      type: "fire",
-      gen: 7,
-      image: "https://cdn.bulbagarden.net/upload/thumb/0/0e/725Litten.png/1200px-725Litten.png",
-      attacks: ["", ""],
-      _id: uuid()
-    },
-    {
       name: "Popplio",
       type: "water",
       gen: 7,
       image: "https://img.pokemondb.net/artwork/large/popplio.jpg",
+      attacks: ["", ""],
+      _id: uuid()
+    },
+    {
+      name: "Litten",
+      type: "fire",
+      gen: 7,
+      image: "https://cdn.bulbagarden.net/upload/thumb/0/0e/725Litten.png/1200px-725Litten.png",
       attacks: ["", ""],
       _id: uuid()
     },
@@ -200,14 +200,6 @@ const initState = {
       _id: uuid()
     },
     {
-      name: "Scorbunny",
-      type: "fire",
-      gen: 8,
-      image: "https://i.pinimg.com/originals/dc/fa/51/dcfa514a5aa39b81d20c3aec0e840dfd.png",
-      attacks: ["", ""],
-      _id: uuid()
-    },
-    {
       name: "Sobble",
       type: "water",
       gen: 8,
@@ -215,6 +207,14 @@ const initState = {
       attacks: ["", ""],
       _id: uuid()
     },
+    {
+      name: "Scorbunny",
+      type: "fire",
+      gen: 8,
+      image: "https://i.pinimg.com/originals/dc/fa/51/dcfa514a5aa39b81d20c3aec0e840dfd.png",
+      attacks: ["", ""],
+      _id: uuid()
+    }
   ],
   filteredPokemon: [],
   chosen: []
